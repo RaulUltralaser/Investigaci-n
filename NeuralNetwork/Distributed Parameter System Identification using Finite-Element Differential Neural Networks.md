@@ -15,13 +15,12 @@ $$Ku=f$$
 $K$ is the stiffness matrix
 $f$ is correspondes to the source term in the [[PDEs]] or ODE that is being solved
 
+The Neural Network uses the [[Sigmoid Function]]
 
 
-
-
-
-
-
+> [!NOTE] Main Difference
+> The main difference is that both $W_1$ and $V_1$ are assembled by using some ideas form the [[FEM]] allowing the identification of [[PDEs]] in two or three dimensions.
+> 
 
 
 
