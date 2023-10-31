@@ -24,3 +24,16 @@ The Neural Network uses the [[Sigmoid Function]]
 
 
 
+```ad-summary
+
+The paper is about a Neural Network. Specifies the algoritm implemented, and compare the results of a simulation cloth moving by one end being registered by the MoCap, againts the NN
+```
+
+```ad-question
+The comparison was from real data, or simulation?
+
+How to propose the lyapunov function?
+
+Why it says that it run online? but it's not
+
+```
