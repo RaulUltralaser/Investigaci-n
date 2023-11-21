@@ -20,3 +20,13 @@ $v_i$ is the output of the adder,
 $\rho_i$ is the threshold
 $\varphi(.)$ is the nonlinear activation function,
 $y_i$ is the output of neuron $i$
+
+
+[[Identification]]
+
+Having an static neural network implies that for a given input pattern to such a static neural unit, an instantaneous output is obtained through a linear or nonlinear mapping procedure. A biological neuron not only contains a nonlinear mapping operation on the weighted sum of the input signals but also has some dynamic processes such as the state signal feedback, time delays, hysteresis and limit cycles. To emulate such a complex behavior, a number of dynamic or feedback neural units have been proposed.
+
+```ad-info
+The key distinction lies in whether the architecture of the neural network remains fixed (static) or can change dynamically during training (dynamic). Static networks are more common in traditional feedforward architectures, while dynamic networks are used when capturing temporal dependencies or sequential information is essential.
+
+```
